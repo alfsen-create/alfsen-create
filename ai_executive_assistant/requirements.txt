@@ -1,0 +1,5 @@
+crewai==0.35.5
+crewai-tools==0.2.0
+langchain-openai==0.1.8
+python-dotenv==1.0.1
+sqlite3-bro==0.2.1
