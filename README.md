@@ -67,3 +67,21 @@ index.html- coming-soon.png<!DOCTYPE html>
 alfsen-create/alfsen-create is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+## Local Memory Engine
+
+This repository includes a lightweight REST API for storing and searching memories.
+
+### Requirements
+- Python 3.8+
+- `flask`, `flask_cors`, `sentence-transformers`, `numpy`
+
+### Usage
+Run the server:
+
+```bash
+python alfred_transfer_api.py
+```
+
+Then POST conversations to `/api/memory`, search with `/api/search`, and prune old items with `/api/prune`.
+
